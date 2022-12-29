@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Add Bootstrap CSS Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Employees</h1>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Employee First</th>
+                        <th>Employee Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="lista : ${listas}">
+                        <td th:text="${lista.nombre}"></td>
+                        <td th:text="${lista.prioridad}"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
+
+    </div> 
+</body>
+
+</html>
