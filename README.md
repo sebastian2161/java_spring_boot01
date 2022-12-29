@@ -8,13 +8,12 @@ Las dos versiones tienen un diseño de MVC - Modelo-Vista-Contralador , Base de 
 
 
 
-Requisitos:
+###    **Requisitos:**
 
-Instalacion de spring boot en VS Code
+Instalación de spring boot en VS Code
 
-Instalacion de Maven en Vs Code
+Instalación de Maven en Vs Code
 
-
-Comando de ejecucion: mvnw.cmd spring-boot:run
+**Comando de ejecucion: mvnw.cmd spring-boot:run**
 
 
